@@ -81,7 +81,6 @@ Three-page Power BI report (`dashboards/`):
 global-disease-burden-atlas/
 ├── data/
 │   ├── raw/           # original IHME export
-│   └── processed/     # cleaned/derived data
 ├── sql/                # schema DDL
 ├── src/                # Python: load_data.py, add_iso3.py, build_map.py, cluster_countries.py
 ├── notebooks/           # elbow_plot.png and exploratory work
