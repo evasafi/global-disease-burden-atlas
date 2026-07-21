@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Data (raw GBD export can be large; keep it local rather than in git)
+data/raw/*.csv
+
+# Power BI temp/lock files
+*.pbix.lock
+~$*.pbix
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+.idea/
