@@ -1,0 +1,7 @@
+pandas
+sqlalchemy
+pyodbc
+geopandas
+pycountry
+scikit-learn
+matplotlib

@@ -91,7 +91,7 @@ global-disease-burden-atlas/
 
 ## Running it yourself
 
-1. Run `sql/schema.sql` against a SQL Server instance to create `DiseaseBurdenAtlas`
+1. Run `sql/01_create_database.sql` then `sql/02_create_schema.sql` against your SQL Server instance
 2. Place a GBD export CSV in `data/raw/`
 3. `python src/load_data.py` — loads the star schema
 4. `python src/add_iso3.py` — adds ISO3 codes for mapping
